@@ -1,0 +1,9 @@
+dependencies:
+- name: libchart
+  repository: file://../libchart
+  version: 0.1.1
+- name: postgresql
+  repository: https://charts.bitnami.com/bitnami
+  version: 10.3.18
+digest: sha256:b7f1ed11ca02d6a2fd895f851d695c3839f5f4174b5a22865386c950e1b761f4
+generated: "2021-04-28T22:05:02.570298+02:00"
