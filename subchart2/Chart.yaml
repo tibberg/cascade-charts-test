@@ -24,9 +24,6 @@ version: 0.1.2
 appVersion: "0.1.0"
 
 dependencies:
-- name: libchart
-  version: ~0.1.0
-  repository: file://../libchart
 - name: postgresql
   version: 10.3.18
   repository: https://charts.bitnami.com/bitnami
