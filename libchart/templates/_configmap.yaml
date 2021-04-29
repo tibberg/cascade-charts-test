@@ -8,5 +8,5 @@ metadata:
 data: {}
 {{- end -}}
 {{- define "libchart.configmap" -}}
-{{- include "libchart.util.merge" (append . "mylibchart.configmap.tpl") -}}
+{{- include "libchart.util.merge" (append . "libchart.configmap.tpl") -}}
 {{- end -}}
