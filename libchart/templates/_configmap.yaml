@@ -4,7 +4,7 @@ kind: ConfigMap
 metadata:
   name: {{ .Release.Name | printf "%s-%s" .Chart.Name }}
   labels: 
-    librarychart: true
+    librarychart: "true"
 data: {}
 {{- end -}}
 {{- define "libchart.configmap" -}}
