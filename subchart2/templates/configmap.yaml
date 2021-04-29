@@ -1,5 +1,5 @@
-{{- include "mylibchart.configmap" (list . "mychart.configmap") -}}
-{{- define "mychart.configmap" -}}
+{{- include "libchart.configmap" (list . "subchart2.configmap") -}}
+{{- define "subchart2.configmap" -}}
 data:
   myvalue: "subchart2"
 {{- end -}}  
