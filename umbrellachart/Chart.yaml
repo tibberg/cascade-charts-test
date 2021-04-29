@@ -24,6 +24,9 @@ version: 0.1.3
 appVersion: "0.1.0"
 
 dependencies:
+- name: libchart
+  version: ~0.1.0
+  repository: file://../libchart
 - name: subchart1
   version: ~0.1.0
   repository: file://../subchart1
