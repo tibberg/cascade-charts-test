@@ -1,2 +1,4 @@
-*/charts/*.tgz
+.DS_Store
+*/charts/libchart*.tgz
+umbrellachart/charts/*
 */Chart.lock
